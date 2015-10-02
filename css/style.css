@@ -1,90 +1,60 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: ;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
 	line-height: 1;
 	font-size: 16px;
- 	font-family: Georgia, serif;
+ 	font-family: arial;
  	background-color: rgb(235,235,235);
-  	padding: 20px;
-  	border-top: 30px solid #333;
-}
 
+  	border-top: 30px solid #333;
+
+}
 p {
-	font-style: italic;
+	padding-bottom: 5px;
 }
 
 h1 {
 	font-weight: bold;
-	text-transform: uppercase;
+	text-transform: normal;
+	font-size: 70px;
+	text-align: left;
+	font-family: arial;
 }
 h2 {
 	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: underline;
 }
-.header {
-	max-width: 700px;
-	margin: 15px;
+ .box {
+ 	background-color: #CCCCCC;
+ 	width: 20px;
+ 	height: 300px;
+ }
+
+ .gray {
+ 	background-color: gray;
+ 	width: 20px;
+ 	height: 500px;
+ }
+.dark {
+	background-color: #333;
+	width: 20px;
+	height: 700px;
+}
+.three {
 	font-size: 16px;
- 	font-family: Georgia, serif;
+ 	font-family: arial;
  	line-height: 1.5;
  	background-color: rgb(235,235,235);
-  	padding: 25px;
-  	border-bottom: 7px double #6E6E6E;
-  	text-align: center;
-  	font-style: normal;
+  	text-align: left;
+  	border-right: solid 1px #CCCCCC;
+  	margin-top: 10px;
+  	margin-left: 10px;
+  	margin-right: 5px;
+  	padding-left: 47px;
+}
+.work {
+	text-align: right;
+	margin-right: 40px;
 }
 
-.project {
-	max-width: 600px;
-	margin: 15px;
-	margin-left: 65px;
-	font-size: 16px;
- 	font-family: Georgia, serif;
- 	line-height: 1.5;
- 	background-color: rgb(235,235,235);
-  	padding: 25px;
-  	border-bottom: 2px solid #BDBDBD;
-  	text-align: center;
-  	font-variant: small-caps;
-}
 
-ol, ul {
-	list-style: none;
+span {
+	font-weight: bold;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}</pre></body></html>Xtext/css
